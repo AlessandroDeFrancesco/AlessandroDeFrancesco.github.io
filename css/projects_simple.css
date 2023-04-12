@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'PixelFont'; 
+    src: url('../fonts/pixel_font.ttf'), url('../fonts/pixel_font.eot');
+}
+
+body{
+	background-color: #312b2f;
+	text-align: center;
+	margin: 0;
+}
+
+div {
+	background-repeat: no-repeat;
+	margin: 10px;
+}
+
+.bottomdiv{
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #ddd;
+	border-top: 1vh solid;
+	border-color: #888;
+	z-index: 99999;
+}
+
+.table {
+	display: table;   /* To center the icons */
+	margin: auto auto;
+}
+
+.toolbar{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.toolbar li {
+    float: left;
+}
+
+.toolbar li img{
+	width: 15vw;
+	max-width: 128px;
+}
+
+.toolbar li a {
+    display: block;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+
+.toolbar li a:hover {
+    transform: scale(1.2);
+}
+
+.toolbar li a:active {
+    transform: scale(1.2);
+}
+
+.background{
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	background-size: cover;
+}
+
+.container{
+	margin: 20px;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+.title{
+	display: block;
+	font-family: 'PixelFont';
+	font-size: 90px;
+	text-align: center;
+	color: #FFA500;
+}
+
+.icon{
+	height: 128px;
+}
+
+.description{
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	text-align: justify;
+	max-width: 1000px;
+	color: #FFFFFF;
+	background-color: #1117;
+	padding: 15px;
+}
+
+.importantText {
+	color: #FFA500;
+}
+
+.importantText2 {
+	color: #00FFA5;
+}
+
+.smartphone-screenshots{
+	margin: 0px;
+	display: inline-block;
+	background-position: left; 
+	background-image: url(../img/smartphone_off.png);
+    height: 900px;
+	width: 480px;
+}
+
+.smartphone-screen{
+	position: absolute;
+	overflow: hidden;
+	height: 608px;
+	width: 376px;
+	left: 48px;
+	top: 144px;
+	border: 0;
+}
+
+.pc-screenshots{
+	margin: 0px;
+	display: inline-block;
+	background-position: left; 
+	background-image: url(../img/pc_off.png);
+    height: 600px;
+	width: 850px;
+}
+
+.pc-screen{
+	position: absolute;
+	overflow: hidden;
+	height: 428px;
+	width: 788px;
+	left: 28px;
+	top: 38px;
+}
+
+.getitbanner{
+	display: inline-block;
+	width: 460px;
+}
+
+a{
+	color: #1E90FF;
+}
+
+a:hover
+{
+	color: #c3c3c3; 
+	text-decoration: none;
+}
+
+.contact{
+	padding-top: 70px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 42px;
+	text-align: center;
+	text-decoration: underline;
+	word-wrap: break-word;
+	background-position: top center;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+#footer{
+	font-family: 'PixelFont';
+	font-size: 56px;
+	text-align: center;
+	color: #AAA;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width : 900px) {
+	.pc-screenshots{
+		background-size: contain;
+		height: 300px;
+		width: 425px;
+	}
+
+	.pc-screen{
+		position: absolute;
+		overflow: hidden;
+		height: 210px;
+		width: 390px;
+		left: 14px;
+		top: 19px;
+	}
+}
+
+/* Smartphones */
+@media only screen and (max-width : 520px) {
+	.getitbanner{
+		width: 260px;
+	}
+	
+	.title{
+		font-size: 45px;
+	}
+	
+	.description{
+		font-size: 20px;
+	}
+	
+	.smartphone-screenshots{
+		height: 450px;
+		width: 240px;
+		background-size: contain;
+	}
+	
+	.smartphone-screen{
+		height: 304px;
+		width: 188px;
+		left: 22px;
+		top: 70px;
+	}
+	
+	.pc-screenshots{
+		background-size: contain;
+		height: 225px;
+		width: 320px;
+	}
+
+	.pc-screen{
+		position: absolute;
+		overflow: hidden;
+		height: 156px;
+		width: 290px;
+		left: 10px;
+		top: 13px;
+	}
+	
+	.contact{
+		font-size: 28px;
+	}
+	
+	#footer{
+		font-size: 32px;
+	}
+}
+
+@media only screen and (max-width : 330px) {
+	.getitbanner{
+		width: 140px;
+	}
+	
+	.title{
+		font-size: 38px;
+	}
+	
+	.description{
+		font-size: 16px;
+	}
+	
+	.smartphone-screenshots{
+		height: 292px;
+		width: 156px;
+		background-size: contain;
+	}
+	
+	.smartphone-screen{
+		height: 198px;
+		width: 122px;
+		left: 12px;
+		top: 44px;
+	}
+	
+	.pc-screenshots{
+		background-size: contain;
+		height: 128px;
+		width: 180px;
+	}
+
+	.pc-screen{
+		position: absolute;
+		overflow: hidden;
+		height: 86px;
+		width: 160px;
+		left: 6px;
+		top: 8px;
+	}
+	
+	
+	.contact{
+		font-size: 22px;
+	}
+	
+	#footer{
+		font-size: 26px;
+	}
+}

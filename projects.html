@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/projects.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/fullscreenImage.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/encoder_decoder.js"></script>
+
+<!-- ===========================
+FAVICONS
+=========================== -->
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+
+<!-- ===========================
+THEME INFO
+=========================== -->
+<meta name="description" content="Alessandro De Francesco, a game designer's Portfolio">
+<meta name="keywords" content="Alessandro De Francesco, Portfolio, Videogame Designer, Videogame Developer, Videgame, Game Developer, Game Designer, Game">
+<meta name="author" content="Alessandro De Francesco">
+
+<!-- ===========================
+SITE TITLE
+=========================== -->
+<title>Alessandro De Francesco's Portfolio</title>
+
+<meta name="viewport" content="width=1200, height=750, shrink-to-fit=yes">
+
+<script>
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+
+</head>
+<body>
+
+<!-- The Fixed Link to Simple Projects -->
+<div id="link-to-simple-projects-container">
+	<div id="link-to-simple-projects" class="clickable">Click <a href="projects_simple.html">here</a> for a simpler page</div>
+	<img id="icon-simple-projects" class="clickable" src="img/warning_icon.png" alt="link to simpleprojects.html"/>
+</div>
+
+<!-- The Image Modal -->
+<div id="imageModalDiv" class="image-modal">
+
+  <!-- The Close Button -->
+  <span id="closeImage" class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="image-modal-content" id="imageModal" src="img/background.png" alt="Screenshot">
+</div>
+
+<!-- The World -->
+<div id="all">
+	<div id="world">
+		<div id="surface-lateral"></div>
+		<div id="surface"></div>
+
+		<div id="pit-container">
+			<div id="pit" class="pit"></div>
+			<div id="pit-bottom" class="pit-bottom"></div>
+			<div id="pit-treasure" class="pit-treasure"></div>
+		</div>
+		
+		<div id="show">	
+			<div id="instructions" class="animated" style="width: 720px; height: 400px; background-image: url(img/instructions.png);"></div>
+			
+			<!-- 2014 -->
+			<div class="big-transparent-space"></div>
+			<div id="2014" class="showing" style="height: 70px; background-image: url(img/2014.png);"></div>
+			<div class="transparent-space"></div>
+			
+			<!-- IAN THE SNAKE -->
+			<div id="ianthesnake-icon" class="showing icon" style="background-image: url(img/ian_the_snake_icon.png);"></div>
+			<div id="ianthesnake-name" class="showing title unselectabletext">Ian The Snake</div>
+			<div id="ianthesnake-description" class="showing description unselectabletext">
+			This is my <span class='importantText2'>first developed game</span>, released for the Google Play Store in the 2014. At the beginning Ian The Snake was born as a <span class='importantText2'>hobby</span> to learn how to design and develop a game and then it became a real game when i saw that it was fun to play it with others.<br><br>Ian The Snake it's a mobile game designed and developed by me using Android Studio and Gimp as tools. It's a simple and colorful Snake-like game that can be played in a <span class='importantText2'>multiplayer mode via Bluetooth</span>, up to 4 players, or against a <span class='importantText2'>CPU controlled snake</span>.<br><br>
+			</div>
+			<div class="showing clickable linkToApp">
+				<a target='_blank' href='https://play.google.com/store/apps/details?id=com.ianthesnake'>
+				<img class="getitbanner" alt='Get it on Google Play' src='img/googleplay.png'/>
+				</a>
+			</div>
+			
+			
+			<div id="ianthesnake-screenshots" class="smartphone-screenshots showing clickable">
+				<div class="flexslider smartphone-screen">
+					  <ul class="slides">
+						<li>
+						  <img class="screenshot" alt="Screenshot" src="img/snake1.jpg" />
+						</li>
+						<li>
+						  <img class="screenshot" alt="Screenshot" src="img/snake2.jpg" />
+						</li>
+						<li>
+						  <img class="screenshot" alt="Screenshot" src="img/snake3.jpg" />
+						</li>
+					  </ul>
+				</div>
+			</div>
+			
+			<!-- 2015 -->			
+			<div class="big-transparent-space"></div>
+			<div id="2015" class="showing" style="height: 70px; background-image: url(img/2015.png);"></div>
+			<div class="transparent-space"></div>
+			
+			<!-- MANA MAKER -->
+			<div id="manamaker-icon" class="showing icon" style="background-image: url(img/mana_maker_icon.png);"></div>
+			<div id="manamaker-name" class="showing title unselectabletext">Mana Maker</div>
+			<div id="manamaker-description" class="showing description unselectabletext">
+			Mana Maker is my second developed game also born as a <span class='importantText2'>hobby project</span> and then released for the Google Play Store in 2015. It's a mobile game designed and developed by me using Eclipse, LibGDX and Gimp as tools. It's a retro-inspired Clicker game in which you have to make Mana with a simple Tap and sell it to the Wizards through your very own Store.<br><br>It blends in a unique way the mechanics of a <span class='importantText2'>clicker game with the management mechanics</span> to bring fun to the players.<br><br>
+			</div>
+			<div class="showing clickable linkToApp">
+				<a target='_blank' href='https://play.google.com/store/apps/details?id=com.manamaker.android'>
+				<img class="getitbanner" alt='Get it on Google Play' src='img/googleplay.png'/>
+				</a>
+			</div>
+			
+			<div id="manamaker-screenshots" class="smartphone-screenshots showing clickable">
+				<div class="flexslider smartphone-screen">
+					  <ul class="slides">
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/mana1.jpg" />
+						</li>
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/mana2.jpg" />
+						</li>
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/mana3.jpg" />
+						</li>
+					  </ul>
+				</div>
+			</div>
+			
+			<div class="big-transparent-space"></div>
+			
+			<!-- GOBLINS ON MARS -->
+			<div id="goblinsonmars-icon" class="showing icon" style="background-image: url(img/goblins_on_mars_icon.png);"></div>
+			<div id="goblinsonmars-name" class="showing title unselectabletext">Goblins On Mars</div>
+			<div id="goblinsonmars-description" class="showing description unselectabletext">
+			Goblins On Mars is my <span class='importantText2'>first game developed in a team</span>. It's a PC game designed by me and developed in Unity3D with a team of colleagues for the course "Online Game Design" at the University of Milan. Goblins on Mars is an action real-time strategy (ARTS) game set in a 3D fantasy world that can be played in campaign mode or in multiplayer mode in a <span class='importantText2'>Multiplayer Online Battle Arena</span> (MOBA) way.<br><br>
+			</div>
+			
+			<div id="goblinsonmars-screenshots" class="pc-screenshots showing clickable">
+				<div class="flexslider pc-screen">
+					  <ul class="slides">
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/goblinsonmars1.jpg" />
+						</li>
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/goblinsonmars2.jpg" />
+						</li>
+					  </ul>
+				</div>
+			</div>
+			
+			<!-- 2016 -->
+			<div class="big-transparent-space"></div>
+			<div id="2016" class="showing" style="height: 70px; background-image: url(img/2016.png);"></div>
+			<div class="transparent-space"></div>
+			
+			<!-- ARURU -->
+			<div id="aruru-icon" class="showing icon" style="background-image: url(img/aruru_icon.png);"></div>
+			<div id="aruru-name" class="showing title unselectabletext">Aruru</div>
+			<div id="aruru-description" class="showing description unselectabletext">
+			Aruru is a PC game designed and developed by me and the members of my team for the Global Game Jam 2016 at the "Politecnico di Milano". The Global Game Jam of 2016 provided the theme "Ritual" and 2 days of frenetic work to complete the game. During this time we designed and developed in Unity3D Aruru, a multiplayer puzzle-fighter video game in which two alien spirits take part to a ritual to regain the access to a physical body, granted them by Aruru, the Goddess of Creation.<br><br>
+			</div>
+			<div class="showing clickable linkToApp">
+				<a target='_blank' href='https://globalgamejam.org/2016/games/aruru'>
+				<img class="getitbanner" alt='Get it on GGJ2016' src='img/ggj.png'/>
+				</a>
+			</div>
+			
+			<div id="aruru-screenshots" class="pc-screenshots showing clickable">
+				<div class="flexslider pc-screen">
+					  <ul class="slides">
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/aruru1.jpg" />
+						</li>
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/aruru2.jpg" />
+						</li>
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/aruru3.jpg" />
+						</li>
+					  </ul>
+				</div>
+			</div>
+			
+			<div class="big-transparent-space"></div>
+			
+			<!-- KEYTWISTER -->
+			<div id="keytwister-icon" class="showing icon" style="background-image: url(img/keytwister_icon.png);"></div>
+			<div id="keytwister-name" class="showing title unselectabletext">Keytwister</div>
+			<div id="keytwister-description" class="showing description unselectabletext">
+			Keytwister is a PC game conceived by Simone Pietro Romei, designed and developed with me and a team of colleagues for the course "Videogame Design and Programming" at the "Politecnico di Milano".<br><br>Keytwister has been developed in Unity3D and it's a 2D multiplayer game in which all players challenge each other in a race to finish the randomly generated track first while their <span class='importantText2'>controls change randomly</span> when they take damage.<br><br>
+			</div>
+			<div class="showing clickable linkToApp">
+				<a target='_blank' href='https://polimi-game-collective.itch.io/key-twister'>
+				<img class="getitbanner" alt='Get it on Itch.io' src='img/itchio.png'/>
+				</a>
+			</div>
+			
+			<div id="keytwister-screenshots" class="pc-screenshots showing clickable">
+				<div class="flexslider pc-screen">
+					  <ul class="slides">
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/keytwister1.jpg" />
+						</li>
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/keytwister2.jpg" />
+						</li>
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/keytwister3.jpg" />
+						</li>
+					  </ul>
+				</div>
+			</div>
+			
+			<!-- 2018 -->
+			<div class="big-transparent-space"></div>
+			<div id="2018" class="showing" style="height: 70px; background-image: url(img/2018.png);"></div>
+			<div class="transparent-space"></div>
+			
+			<!-- A.t.l.a.s. -->
+			<div id="atlas-icon" class="showing icon" style="background-image: url(img/atlas_icon.png);"></div>
+			<div id="atlas-name" class="showing title unselectabletext">A.t.l.a.s.</div>
+			<div id="atlas-description" class="showing description unselectabletext">
+			A.t.l.a.s. (Automatic Terrain & Locations Assembling System) is a tool designed and developed by me as project for the Master's Degree Thesis. Its purpose is to <span class='importantText2'>generate a game map in an easy and fast way</span>, following the rules and constraints of the game designer with automatic placement on the map of a set of places such as Towns, Mountains, Rivers and more.
+			</div>
+			
+			<div id="atlas-screenshots" class="pc-screenshots showing clickable">
+				<div class="flexslider pc-screen">
+					  <ul class="slides">
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/atlas1.jpg" />
+						</li>
+						<li>
+							<img class="screenshot" alt="Screenshot" src="img/atlas2.jpg" />
+						</li>
+					  </ul>
+				</div>
+			</div>
+			
+			<div class="big-transparent-space"></div>
+			
+			<!-- NOW -->
+			<div class="big-transparent-space"></div>
+			<div id="now" class="showing" style="height: 70px; background-image: url(img/now.png);"></div>
+			<div class="little-transparent-space"></div>
+			
+			<!-- LAST WORDS -->
+			<div id="end" class="showing clickable">
+				<div id="lastwords" class="description" style="text-align:center">
+				So this is it! These are the games that i developed over the years, i hope you have enjoyed this portfolio as much as i had to create it. And for the future I just hope to be able to create even more beautiful games, maybe with you!
+				<br/><br/>Feel free to contact me:
+				</div>
+				
+				<div id="email" class="contact" style="background-image: url(img/email.png)"><a onclick="showDecoded(this, event, true, true)" href="#" data-mlobf="0e636f67627a61346f626b7d7d6f606a7c616a6b687c6f606d6b7d6d616a6b784e69636f6762206d6163">[CLICK TO SHOW]</a>
+				</div>
+				<div id="linkedin" class="contact" style="background-image: url(img/linkedin.png)">
+				<a onclick="showDecoded(this, event, true, true)" href="#" data-mlobf="0e667a7a7e7d34212179797920626760656b6a6760206d6163216760216f626b7d7d6f606a7c61236a6b23687c6f606d6b7d6d6123383e3f36393c383921">[CLICK TO SHOW]</a>
+				</div>
+			</div>
+			
+			<!-- MADE BY ME FOOTER  -->
+			<div class="footer unselectabletext">
+				Made by Alessandro De Francesco - 2023
+			</div>
+			
+		</div>
+	</div>
+
+	<div id="pixelme" class="animated"></div>
+	<div id="baloon"> <div id="baloon-text" class="unselectabletext">Mana Maker is quite a successful hit with <span class='importantText'>100.000+ downloads</span>!</div></div>
+</div>
+
+
+<script src="js/projects.js"></script>
+
+</body>
+</html>

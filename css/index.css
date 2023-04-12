@@ -1,0 +1,89 @@
+*{	-webkit-transition: .7s ease-out;
+ 	-moz-transition: .7s ease-out;
+ 	-o-transition:  .7s ease-out;
+ 	transition: .7s ease-out;
+    list-style: none;
+}
+
+/* =============================
+PRELOAD RESOURCES
+==============================*/
+:root:before {
+  content: url(../img/start_button.png)
+           url(../img/start_button_hover.png)
+           url(../img/start_button_pressed.png);
+  visibility: hidden;
+  position: absolute;
+  left: -999em;
+}
+
+/*================================
+TYPOGRAPHY
+================================*/
+@font-face {
+    font-family: 'PixelFont'; 
+    src: url('../fonts/pixel_font.ttf'), url('../fonts/pixel_font.eot');
+}
+
+body {
+	margin: 10px;
+	margin-bottom: 50px;
+    font-family: 'PixelFont';
+    line-height: 1.8em;
+}
+
+h1{
+	font-size: 60px;
+	margin-bottom: 10px;
+	line-height: 1em;
+}
+h2{font-size: 40px;}
+h3{font-size: 36px;}
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 1.4em;
+	color: #999;
+}
+
+body{
+	text-align: center;
+	background: url(../img/background.png) center center fixed;
+}
+
+/*================================
+HERO AREA
+================================*/
+
+.herocontent{
+	display: inline-block;
+	color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* BUTTONS */
+
+#button-start {
+  display: inline-block;
+  width: 256px;
+  height: 256px;
+  background: url(../img/start_button.png)no-repeat;
+  transition: all 0s ease;
+}
+
+#button-start:hover {
+	background: url(../img/start_button_hover.png)no-repeat;
+}
+
+#button-start:active {
+	background: url(../img/start_button_pressed.png)no-repeat;
+}
+
+.speak{
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+}
